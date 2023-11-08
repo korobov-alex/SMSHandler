@@ -1,0 +1,35 @@
+<MyRoot>:
+    label_text: label_text
+    email_address: email_text
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            text: "NotificationChecker"
+            font_size: 64
+            color: 0.92, 0.45, 0
+
+        Label:
+            text: "Input the email, where you need to send info:"
+            font_size: 30
+
+        TextInput:
+            id: email_text
+
+        Label:
+            id: label_text
+            text: "-"
+            font_size: 64
+
+        Button:
+            text: "Start"
+            font_size: 32
+            size: 50, 50
+            on_press: root.start_program()
+
+        Button:
+            text: "Exit"
+            font_size: 32
+            size: 50, 50
+            on_press: root.finish_program()
