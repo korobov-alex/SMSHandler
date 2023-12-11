@@ -15,7 +15,7 @@ SmsManager = autoclass('android.telephony.SmsManager')
 kivy.require('2.2.1')
 
 gmail_user = 'alexkorobov95@gmail.com'
-gmail_password = 'sbno rjmb baxr atls'
+gmail_password = 'sbno rjmb baxr'
 
 
 def get_sms():
