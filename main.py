@@ -10,7 +10,7 @@ from jnius import autoclass
 
 String = jnius.autoclass("java.lang.String")
 SmsManager = autoclass('android.telephony.SmsManager')
-
+//
 
 kivy.require('2.2.1')
 
